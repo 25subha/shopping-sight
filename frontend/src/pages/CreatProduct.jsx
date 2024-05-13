@@ -23,7 +23,7 @@ const CreatProduct = () => {
   return (
     <div className='bg-gray-300 h-[100vh] flex flex-col justify-center items-center '>
       <div className='bg-white flex flex-col justify-center items-center p-[20px] rounded-lg'>
-<form onSubmit={handleSubmit (submitHandler)}>
+<form onSubmit={handleSubmit(submitHandler)}>
         <div className='bg-gray-200 rounded-[8px] py-2 my-4'>
             <label htmlFor="title" className='px-4 font-bold '>Title</label>
             <input type="text" 

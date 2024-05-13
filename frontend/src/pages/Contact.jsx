@@ -37,21 +37,21 @@ const Contact = () => {
        </div>
      <div className='flex flex-col mb-6   text-white p-2'>
      <div className='flex  m-2'>
-       <div className='w-[400px] h-[140px] p-4 bg-violet-800 rounded-md'>
+       <div className='w-[400px] h-[140px] p-4 bg-violet-700 rounded-md'>
         <h1 className='text'> <FaPhoneVolume /> contact  </h1>
         <p>894561556245</p>
        </div>
-       <div className='w-[400px] h-[140px]  p-4 ml-4 bg-violet-800 rounded-md'>
+       <div className='w-[400px] h-[140px]  p-4 ml-4 bg-violet-700 rounded-md'>
         <h1> <IoLocation />Location</h1>
        <p>panskura, purba medinipur, 721149</p>
        </div>
        </div>
        <div className='flex m-2'>
-       <div className='w-[400px] h-[140px] p-4 bg-violet-800 rounded-md'>
+       <div className='w-[400px] h-[140px] p-4 bg-violet-700 rounded-md'>
         <h1><HiOutlineMail />  email</h1>
         <p>smartmobile.@gmail.com</p>
        </div>
-       <div className='w-[400px] h-[140px] p-4 ml-4 bg-violet-800 rounded-md'>
+       <div className='w-[400px] h-[140px] p-4 ml-4 bg-violet-700 rounded-md'>
         <h1> <TbWorldWww />web site</h1>
         <p>www.smartmobileServices.com</p>
        </div>

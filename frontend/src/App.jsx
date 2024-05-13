@@ -11,13 +11,15 @@ import CreatProduct from "./pages/CreatProduct";
 import CreatProfile from "./pages/CreatProfile";
 import LoginSingup from "./pages/LoginSingup";
 import { Route,Routes } from "react-router-dom";
-import AutoSlider from "./pages/AutoSlider";
+import Carousel from "./pages/Carousel";
+import Newlogin from "./pages/Newlogin";
+
 
 function App() { 
    return (
    <div className="">
       <Navber/>
-      <main>
+    
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/shop" element={<Shop />}/>
@@ -27,10 +29,12 @@ function App() {
           <Route path="/profile" element={<Profile />}/>
           <Route path="/creatproduct" element={<CreatProduct />}/>
           <Route path="/creatprofile" element={<CreatProfile />}/>
-          <Route path="/autoslider" element={<AutoSlider />}/>
+          <Route path="/carousel" element={<Carousel />}/>
           <Route path="/login" element={<LoginSingup />}/>
+          <Route path="/newlogin" element={<Newlogin />}/>
+
         </Routes>
-      </main>
+  
       <Footer/>
    </div>
   )

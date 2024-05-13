@@ -11,11 +11,13 @@ const Navber = () => {
       </div>
     <nav>
         <ul className="flex justify-between cursor-pointer">
-          <li className="mx-2 hover:bg-gray-700 p-2 rounded-md"><Link to="/shop">Shop</Link></li>
+          <li className="mx-2 hover:bg-[#2f2f3d] p-2 rounded-md"><Link to="/shop">Shop</Link></li>
           <li className="mx-2 hover:bg-gray-700 p-2 rounded-md "><Link to="/contact">Contact</Link></li>
           <li className="mx-2 hover:bg-gray-700 p-2 rounded-md "><Link to="/about">About</Link></li>
           <li className="mx-2 hover:bg-gray-700 p-2 rounded-md "><Link to="/cart">Cart</Link></li>
           <li className="mx-2 hover:bg-gray-700 p-2 rounded-md "><Link to="/profile">Profile</Link></li>
+          <li className="mx-2 hover:bg-gray-700 p-2 rounded-md"><Link to="/newlogin">login</Link></li>
+
         </ul>
       </nav>
     </header>

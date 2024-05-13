@@ -1,10 +1,14 @@
 import React from 'react';
 import CategoryCard from '../components/CategoryCard';
 import TopproductCard from '../components/TopproductCard';
+import Newlogin from './Newlogin';
+import { Route,Routes } from "react-router-dom";
 
 const Home = () => {
   return (
+    
     <main className="px-12 py-8 p">
+
   <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 h-[400px]  w-auto p-8'>
        <div className='flex'>
        <div className=''>
@@ -47,7 +51,18 @@ const Home = () => {
     titel={"realme"}
     alt={"realme phone"}/>
     </div>
-    
+    <div className='flex items-center justify-between mt-[50px] p-4 bg-gray-200 rounded-[10px]'>
+      <div>
+        <h1 className='uppercase text-[30px]'>new arriverl moto G64 <br />flat 30% discount</h1>
+        <p className=''>FULL-ON SPEED.FULL-ON DETAIL.</p>
+        <button  className='bg-black p-[2px] rounded-[20px] text-white text-center  hover:bg-gray-700'>shop now</button>
+      </div>
+      <div className='shadow-black	'>
+        <img src="https://www.91-cdn.com/hub/wp-content/uploads/2024/04/moto-g64.jpg"  className='rounded-[12px] shadow-xl
+
+cursor-pointer h-64 w-72 rounded' alt="moto g64 image" />
+      </div>
+    </div>
     <div className="py-16 flex justify-between  ">  
       
         <TopproductCard 
@@ -63,7 +78,7 @@ const Home = () => {
         alt={"readmi "}
         />
          <TopproductCard 
-        imgUrl={"https://www.triveniworld.com/cdn/shop/products/realme-11-pro-5g-dual-sim-256gb-gold-8gb-ram-triveni-world-1_1024x.jpg?v=1707085887"} 
+        imgUrl={"https://vlebazaar.in/image/cache/catalog//B0C78GR61T/realme-11-Pro-5G-Sunrise-Beige-8GB-RAM-256GB-Storage--120-Hz-Curved-Display--100-550x550h.jpg.webp"} 
         titel={"Realme 11 Pro 5G Dual Sim 256GB (8GB RAM)"}
         price={"14,999.00"}
         alt={"realmi "}
@@ -75,7 +90,8 @@ const Home = () => {
         alt={"vivo "}
         />
       </div>
-    
+      
+      
     </main>
   )
 }
