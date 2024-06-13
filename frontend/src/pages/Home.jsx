@@ -1,8 +1,6 @@
 import React from 'react';
 import CategoryCard from '../components/CategoryCard';
 import TopproductCard from '../components/TopproductCard';
-import Newlogin from './Newlogin';
-import { Route,Routes } from "react-router-dom";
 
 const Home = () => {
   return (

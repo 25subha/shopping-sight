@@ -9,10 +9,9 @@ import Cart from "./pages/Cart";
 import Profile from "./pages/Profile";
 import CreatProduct from "./pages/CreatProduct";
 import CreatProfile from "./pages/CreatProfile";
-import LoginSingup from "./pages/LoginSingup";
 import { Route,Routes } from "react-router-dom";
 import Carousel from "./pages/Carousel";
-import Newlogin from "./pages/Newlogin";
+// import Login from "./pages/Login";
 
 
 function App() { 
@@ -30,8 +29,8 @@ function App() {
           <Route path="/creatproduct" element={<CreatProduct />}/>
           <Route path="/creatprofile" element={<CreatProfile />}/>
           <Route path="/carousel" element={<Carousel />}/>
-          <Route path="/login" element={<LoginSingup />}/>
-          <Route path="/newlogin" element={<Newlogin />}/>
+          {/* <Route path="/login" element={<Login />}/> */}
+
 
         </Routes>
   
